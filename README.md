@@ -19,7 +19,7 @@ My starter theme based on [underscores](https://github.com/automattic/_s).
 
 ### How to search and replace
 
-1.  In your finder, rename the `ll_start` folder to `example`
+1.  In your finder, rename the `starter` folder to `example`
 2.  Open the whole `example` folder in your text editor (I use Sublime Text)
 3.  Search for `'ll_start'` and include the single quotations to capture the theme's text domain.
     * Replace with `'example'`.
