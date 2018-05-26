@@ -20,9 +20,9 @@ if ( ! function_exists( 'll_starter_setup' ) ) :
 		 * Make theme available for translation.
 		 * Translations can be filed in the /languages/ directory.
 		 * If you're building a theme based on ll_start, use a find and replace
-		 * to change 'll_starter' to the name of your theme in all the template files.
+		 * to change 'll_start' to the name of your theme in all the template files.
 		 */
-		load_theme_textdomain( 'll_starter', get_template_directory() . '/languages' );
+		load_theme_textdomain( 'll_start', get_template_directory() . '/languages' );
 
 		// Add default posts and comments RSS feed links to head.
 		add_theme_support( 'automatic-feed-links' );
@@ -44,7 +44,7 @@ if ( ! function_exists( 'll_starter_setup' ) ) :
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
-			'menu-1' => esc_html__( 'Primary', 'll_starter' ),
+			'menu-1' => esc_html__( 'Primary', 'll_start' ),
 		) );
 
 		/*
@@ -105,9 +105,9 @@ add_action( 'after_setup_theme', 'll_starter_content_width', 0 );
  */
 function ll_starter_widgets_init() {
 	register_sidebar( array(
-		'name'          => esc_html__( 'Sidebar', 'll_starter' ),
+		'name'          => esc_html__( 'Sidebar', 'll_start' ),
 		'id'            => 'sidebar-1',
-		'description'   => esc_html__( 'Add widgets here.', 'll_starter' ),
+		'description'   => esc_html__( 'Add widgets here.', 'll_start' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 class="widget-title">',
