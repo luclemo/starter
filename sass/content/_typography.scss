@@ -1,0 +1,107 @@
+/*----------------------------------------------
+// Global
+----------------------------------------------*/
+
+html {
+  font-size: 62.5%; // 10px
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  transition: font-size 0.1s ease;
+}
+
+/*----------------------------------------------
+// Copy
+----------------------------------------------*/
+
+p {
+  margin-bottom: 1.5em;
+}
+
+dfn,
+cite,
+em,
+i {
+  font-style: italic;
+}
+
+/*----------------------------------------------
+// Blockquote
+----------------------------------------------*/
+
+blockquote {
+  margin: 0 1.5em;
+}
+
+/*----------------------------------------------
+// Lists
+----------------------------------------------*/
+
+ul,
+ol {
+  margin: 0 0 1.5em 3em;
+}
+
+ul {
+  list-style: disc;
+}
+
+ol {
+  list-style: decimal;
+}
+
+li>ul,
+li>ol {
+  margin-bottom: 0;
+  margin-left: 1.5em;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin: 0 1.5em 1.5em;
+}
+
+/*----------------------------------------------
+// Extras
+----------------------------------------------*/
+
+address {
+  margin: 0 0 1.5em;
+}
+
+pre {
+  background: lightgray;
+  font-family: monospace;
+  line-height: 1.5;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1.6em;
+}
+
+code,
+kbd,
+tt,
+var {
+  font-family: monospace;
+}
+
+abbr,
+acronym {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+mark,
+ins {
+  background: palegoldenrod;
+  text-decoration: none;
+}

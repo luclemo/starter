@@ -1,0 +1,80 @@
+/*----------------------------------------------
+// Global Media
+----------------------------------------------*/
+
+img {
+	height: auto;
+	/* Make sure images are scaled correctly. */
+	max-width: 100%;
+	/* Adhere to container width. */
+}
+
+figure {
+	margin: 1em 0;
+	/* Extra wide images within figure tags don't overflow the content area. */
+}
+
+/* Make sure embeds and iframes fit their containers. */
+
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+
+/* Global svg stuff */
+
+svg {
+	color: inherit;
+	fill: currentcolor;
+	/* fill colour of the SVG will be inherited from the color value of its parent */
+	max-width: 100%;
+}
+
+.icon {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	stroke-width: 0;
+	stroke: currentColor;
+	fill: currentColor;
+}
+
+/* Embedded iframe videos */
+
+// .iframe-wrapper {
+// 	position: relative;
+// 	width: 100%;
+// }
+// .iframe-container {
+// 	height: 0;
+// 	width: 100%;
+// 	padding-bottom: 56.25%;
+// }
+// iframe:not(.modal-iframe) {
+// 	position: absolute;
+// 	height: 100%;
+// 	width: 100%;
+// 	left: 0;
+// 	top: 0;
+// }
+/*----------------------------------------------
+// Wordpress Captions
+----------------------------------------------*/
+
+.wp-caption {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+	img[class*="wp-image-"] {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.wp-caption-text {
+		margin: 0.8075em 0;
+	}
+}
+
+.wp-caption-text {
+	text-align: center;
+}

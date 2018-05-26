@@ -1,0 +1,15 @@
+a {
+	color: mediumvioletred;
+	&:hover,
+	&:focus,
+	&:active {
+		color: palevioletred;
+	}
+	&:focus {
+		outline: thin dotted;
+	}
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}
