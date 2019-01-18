@@ -29,7 +29,12 @@ gulp.task('styles', function () {
     .pipe(sass())
     .pipe(minifyCSS())
     .pipe(autoprefixer({
-      browsers: ["last 3 versions"]
+      grid: true,
+      browsers: [
+        'last 1 version',
+        'not dead',
+        '> 1%'
+      ]
     }))
     .pipe(
       cleanCSS({
